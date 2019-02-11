@@ -48,8 +48,6 @@ class DaDataController extends Controller
         $bankInfo = json_decode($data[1]['bank_info']);
         $partyInfo = json_decode($data[2]['party_info']);
 
-        $party = new Party;
-
         //Aдреса
         foreach ($addressInfo->suggestions as $addressI) {
             Address::insert([
