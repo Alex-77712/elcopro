@@ -7,6 +7,9 @@ use App\Address;
 use App\Bank;
 use App\Party;
 
+/**
+* class DaDataController
+**/
 class DaDataController extends Controller
 {
 	
